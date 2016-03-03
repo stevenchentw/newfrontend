@@ -1,0 +1,119 @@
+h1 {
+	font-size: 48px;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+}
+
+ul {
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+.container {
+	width: 1145px;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* #header */
+#logo {
+	float: left;
+}
+
+#nav {
+	float: right;
+}
+
+#nav li {
+	float: left;
+	line-height: 90px;
+}
+
+#nav a {
+	padding: 0 15px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+   
+#nav .active a {
+	color: #1ED3A6;
+}
+
+
+/* .header */
+.header {
+	text-align: center;
+	color: #fff;
+	background-image: url(http://lorempixel.com/1000/500/);
+}
+
+.header .wrapper {
+	padding: 100px 0;
+}
+
+.header h1 {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#breadcrumbs a {
+	text-transform: capitalize;
+	color: #fff;
+}
+
+ /* .features*/
+.features {
+	padding:120px 0;
+	background-color: #FFFFDD;
+}
+
+.feature {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	width: 361px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	padding: 60px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.feature:nth-child(3n) {
+	margin-right: 0;
+}
+
+.feature h3 {
+	text-transform: uppercase;
+}
+
+.feature .desc {
+	line-height: 1.8;
+	letter-spacing: 1px;
+	color: #999;
+}
+
+
+
+
+
+
+
+
+
+
